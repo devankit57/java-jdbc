@@ -29,7 +29,7 @@
     <ol>
         <li>Ensure that MySQL is running and the database is set up as described above.</li>
         <li>Compile the Java code using the following command:
-            <pre><code>javac -cp fmysql-connector.jar;. JDBC.java </code></pre>
+            <pre><code>javac -cp mysql-connector.jar;. JDBC.java </code></pre>
         </li>
         <li>Run the compiled class:
             <pre><code>java -cp fmysql-connector.jar;. JDBC.java </code></pre>
