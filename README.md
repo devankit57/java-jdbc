@@ -23,3 +23,18 @@
             </ul>
         </li>
     </ul>
+
+<h2>How to Run</h2>
+    <p>To run the application, follow these steps:</p>
+    <ol>
+        <li>Ensure that MySQL is running and the database is set up as described above.</li>
+        <li>Compile the Java code using the following command:
+            <pre><code>javac -cp fmysql-connector.jar;. JDBC.java </code></pre>
+        </li>
+        <li>Run the compiled class:
+            <pre><code>java -cp fmysql-connector.jar;. JDBC.java </code></pre>
+        </li>
+    </ol>
+
+<h2>Application Interface</h2>
+    <p>The application provides a simple graphical interface with fields for Name, Age, and ID. You can add, update, or delete records in the database using the respective buttons. A message label at the bottom of the interface displays the status of the operations.</p>
